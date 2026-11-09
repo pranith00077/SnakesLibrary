@@ -397,6 +397,7 @@ const categories = [
   "Mambas",
   "Rat Snakes",
   "Water Snakes",
+  "Pit Vipers",
   "Others",
 ];
 

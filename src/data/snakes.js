@@ -764,7 +764,336 @@ export const snakes = [
     "It can move quickly both on land and in water.",
     "It plays an important role in aquatic ecosystems."
   ]
+},
+
+{
+  id: "hump-nosed-pit-viper",
+
+  // BASIC INFORMATION
+  name: "Hump-nosed Pit Viper",
+  scientificName: "Hypnale hypnale",
+  species: "H. hypnale",
+  genus: "Hypnale",
+  family: "Viperidae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Pit Vipers",
+
+  // VENOM
+  venomous: true,
+  venomType: "Hemotoxic",
+  venomDetails:
+    "A venomous pit viper with medically significant venom that can cause swelling, tissue damage and blood-clotting abnormalities.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "30–45 cm",
+  maximumLength: "Approximately 55 cm",
+  averageWeight: "Approximately 100–300 g; varies",
+  lifespanWild: "Approximately 10–15 years; estimated",
+
+  // BIOLOGY
+  diet: [
+    "Frogs",
+    "Lizards",
+    "Small rodents",
+    "Small mammals"
+  ],
+  huntingMethod: "Ambush hunting",
+  activity: "Primarily nocturnal",
+  reproduction: "Viviparous (gives birth to live young)",
+  clutchSize: "Approximately 5–20 young",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Moist forests",
+    "Leaf litter",
+    "Rocky areas",
+    "Coffee plantations",
+    "Forest edges",
+    "Dense vegetation"
+  ],
+
+  distribution:
+    "Western Ghats of southwestern India and Sri Lanka.",
+
+  // CONSERVATION
+  conservationStatus: "Least Concern",
+  populationTrend: "Unknown",
+  majorThreats: [
+    "Habitat destruction",
+    "Road mortality",
+    "Human persecution",
+    "Agricultural activities"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/hump-nosed-pit-viper.png",
+
+  // DESCRIPTION
+  description:
+    "The hump-nosed pit viper is a venomous snake found in the Western Ghats and Sri Lanka. It is recognized by its stout body, triangular head and distinctive upturned snout. It usually inhabits moist forests and leaf litter and feeds on frogs, lizards and small rodents.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It has a distinctive upturned, hump-like snout.",
+    "It possesses heat-sensing pits between its eyes and nostrils.",
+    "It is a venomous pit viper with medically significant venom.",
+    "It is primarily active during the night.",
+    "It mainly hunts frogs, lizards and small rodents.",
+    "It is native to the Western Ghats and Sri Lanka."
+  ]
+},
+
+{
+  id: "common-wolf-snake",
+
+  // BASIC INFORMATION
+  name: "Common Wolf Snake",
+  scientificName: "Lycodon aulicus",
+  species: "L. aulicus",
+  genus: "Lycodon",
+  family: "Colubridae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Wolf Snakes",
+
+  // VENOM
+  venomous: false,
+  venomType: "None",
+  venomDetails:
+    "A non-venomous snake that captures prey using its sharp teeth without venom.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "50–60 cm",
+  maximumLength: "Approximately 85 cm",
+  averageWeight: "Approximately 100–300 g; varies",
+  lifespanWild: "Approximately 8–10 years; estimated",
+
+  // BIOLOGY
+  diet: [
+    "Geckos",
+    "Lizards",
+    "Skinks",
+    "Small frogs",
+    "Small rodents"
+  ],
+  huntingMethod: "Active hunting",
+  activity: "Primarily nocturnal",
+  reproduction: "Oviparous (egg-laying)",
+  clutchSize: "Approximately 4–7 eggs",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Rocky areas",
+    "Forests",
+    "Stone piles",
+    "Tree hollows",
+    "Buildings",
+    "Human habitations"
+  ],
+
+  distribution:
+    "India, Sri Lanka, Nepal, Bangladesh, Pakistan, Bhutan and Myanmar.",
+
+  // CONSERVATION
+  conservationStatus: "Least Concern",
+  populationTrend: "Unknown",
+  majorThreats: [
+    "Habitat destruction",
+    "Road mortality",
+    "Human persecution",
+    "Accidental killing"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/common-wolf-snake.png",
+
+  // DESCRIPTION
+  description:
+    "The common wolf snake is a non-venomous snake widely distributed across India. It has a slender body with brown or greyish-brown coloration and distinctive white or yellow bands. It is mainly nocturnal and commonly feeds on geckos, lizards and small frogs. It is often mistaken for the common krait because of its banded appearance.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It is completely non-venomous.",
+    "It is often mistaken for the common krait.",
+    "It has sharp teeth resembling those of a wolf.",
+    "It is primarily active during the night.",
+    "It can climb walls and other rough surfaces.",
+    "It commonly enters houses in search of geckos."
+  ]
+},
+{
+  id: "malabar-pit-viper",
+
+  // BASIC INFORMATION
+  name: "Malabar Pit Viper",
+  scientificName: "Craspedocephalus malabaricus",
+  species: "C. malabaricus",
+  genus: "Craspedocephalus",
+  family: "Viperidae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Pit Vipers",
+
+  // VENOM
+  venomous: true,
+  venomType: "Hemotoxic and cytotoxic components",
+  venomDetails:
+    "Venomous pit viper capable of causing pain, swelling and local tissue injury. Some bites may also cause blood-clotting abnormalities and other systemic complications. Medical treatment is essential after a bite.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "Approximately 50–70 cm",
+  maximumLength: "Approximately 100–130 cm",
+  averageWeight: "Not well documented",
+  lifespanWild: "Not well documented",
+
+  // BIOLOGY
+  diet: [
+    "Frogs",
+    "Toads",
+    "Lizards",
+    "Small rodents",
+    "Small mammals",
+    "Small birds",
+    "Bird eggs"
+  ],
+  huntingMethod: "Ambush predation",
+  activity: "Primarily nocturnal",
+  reproduction: "Ovoviviparous (gives birth to live young)",
+  clutchSize: "Litter size not well documented",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Tropical rainforests",
+    "Evergreen forests",
+    "Semi-evergreen forests",
+    "Rocky areas",
+    "Stream banks",
+    "Trees and bushes",
+    "Moist forest vegetation"
+  ],
+
+  distribution:
+    "Endemic to India's Western Ghats, including Maharashtra, Goa, Karnataka, Kerala and Tamil Nadu.",
+
+  // CONSERVATION
+  conservationStatus: "Least Concern (LC)",
+  populationTrend: "Stable (IUCN assessment in 2010)",
+  majorThreats: [
+    "Habitat destruction",
+    "Deforestation",
+    "Agricultural expansion",
+    "Road mortality",
+    "Human persecution"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/malabar-pit-viper.png",
+
+  // DESCRIPTION
+  description:
+    "The Malabar Pit Viper is a venomous snake endemic to the Western Ghats of India. It has a broad triangular head, vertically elliptical pupils and heat-sensing pits between the eyes and nostrils. Its body displays remarkable colour variations, including green, turquoise, yellow, orange, reddish-brown and dark brown. It is mainly nocturnal and is commonly found near streams, on rocks, bushes and low tree branches. It uses its venom to immobilize prey.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It is endemic to the Western Ghats of India.",
+    "It has heat-sensing pits between its eyes and nostrils.",
+    "It displays several different colour variations.",
+    "It has a prehensile tail that helps it climb and grip branches.",
+    "It is primarily active during the night.",
+    "It commonly hunts frogs near streams and water bodies.",
+    "It is an ambush predator that waits for prey to approach.",
+    "It gives birth to live young rather than laying eggs."
+  ]
+},
+{
+  id: "indian-trinket-snake",
+
+  // BASIC INFORMATION
+  name: "Indian Trinket Snake",
+  scientificName: "Coelognathus helena",
+  species: "C. helena",
+  genus: "Coelognathus",
+  family: "Colubridae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Trinket Snakes",
+
+  // VENOM
+  venomous: false,
+  venomType: "None",
+  venomDetails:
+    "A non-venomous snake that captures and subdues prey using its teeth and muscular body. It poses no venom-related danger to humans, although it may bite if handled.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "Approximately 70 cm",
+  maximumLength: "Approximately 168 cm",
+  averageWeight: "Not well documented",
+  lifespanWild: "Not well documented",
+
+  // BIOLOGY
+  diet: [
+    "Rats",
+    "Mice",
+    "Lizards",
+    "Geckos",
+    "Skinks",
+    "Small frogs",
+    "Birds",
+    "Bird eggs"
+  ],
+  huntingMethod: "Active hunting and constriction",
+  activity: "Diurnal and crepuscular; activity may vary",
+  reproduction: "Oviparous (egg-laying)",
+  clutchSize: "Approximately 6–12 eggs",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Forests",
+    "Deciduous forests",
+    "Rocky areas",
+    "Termite mounds",
+    "Rock piles",
+    "Bushes",
+    "Agricultural fields",
+    "Human habitations"
+  ],
+
+  distribution:
+    "India, Sri Lanka, Nepal, Bangladesh and Pakistan.",
+
+  // CONSERVATION
+  conservationStatus: "Least Concern (LC)",
+  populationTrend: "Unknown",
+  majorThreats: [
+    "Habitat destruction",
+    "Road mortality",
+    "Human persecution",
+    "Accidental killing",
+    "Habitat fragmentation"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/indian-trinket-snake.png",
+
+  // DESCRIPTION
+  description:
+    "The Indian Trinket Snake is a non-venomous snake distributed across the Indian subcontinent. It has a slender body with tan, olive-brown or chocolate-brown coloration. Its forebody often displays distinctive dark and pale crossbands, while the posterior body has two dark longitudinal stripes. It is an excellent climber and commonly inhabits forests, rocky areas, termite mounds and human settlements. It primarily feeds on rodents, lizards and other small animals. It is frequently encountered near houses while searching for geckos and rats.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It is completely non-venomous.",
+    "It is an excellent climber.",
+    "It is an effective natural controller of rats and mice.",
+    "Its body has distinctive dark and pale patterns.",
+    "It is sometimes mistaken for the Common Krait.",
+    "It can enter houses in search of geckos.",
+    "It may form defensive S-shaped coils when threatened.",
+    "It lays eggs rather than giving birth to live young."
+  ]
 }
+
+
 
 
 
