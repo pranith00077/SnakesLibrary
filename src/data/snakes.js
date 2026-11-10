@@ -1091,6 +1091,169 @@ export const snakes = [
     "It may form defensive S-shaped coils when threatened.",
     "It lays eggs rather than giving birth to live young."
   ]
+},
+{
+  id: "bamboo-pit-viper",
+
+  // BASIC INFORMATION
+  name: "Bamboo Pit Viper",
+  scientificName: "Craspedocephalus gramineus",
+  species: "C. gramineus",
+  genus: "Craspedocephalus",
+  family: "Viperidae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Pit Vipers",
+
+  // VENOM
+  venomous: true,
+  venomType: "Hemotoxic and cytotoxic components",
+  venomDetails:
+    "Its venom can cause pain, swelling, local tissue damage and bleeding-related complications. Bite severity varies. Immediate hospital assessment is essential after a bite.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "Approximately 60–90 cm",
+  maximumLength: "Approximately 120 cm",
+  averageWeight: "Not well documented",
+  lifespanWild: "Not well documented",
+
+  // BIOLOGY
+  diet: [
+    "Frogs",
+    "Lizards",
+    "Geckos",
+    "Small rodents",
+    "Small birds"
+  ],
+  huntingMethod: "Ambush predation",
+  activity: "Primarily nocturnal",
+  reproduction: "Viviparous (gives birth to live young)",
+  clutchSize: "Litter size varies; exact typical range is not well documented",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Evergreen forests",
+    "Moist deciduous forests",
+    "Bamboo thickets",
+    "Plantations",
+    "Forest edges",
+    "Shrubs",
+    "Tree branches",
+    "Hill forests"
+  ],
+
+  distribution:
+    "India, primarily the Western Ghats and adjoining hill regions of southern and western India.",
+
+  // CONSERVATION
+  conservationStatus: "Least Concern (LC)",
+  populationTrend: "Unknown",
+  majorThreats: [
+    "Deforestation",
+    "Habitat fragmentation",
+    "Agricultural expansion",
+    "Road mortality",
+    "Human persecution"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/bamboo-pit-viper.png",
+
+  // DESCRIPTION
+  description:
+    "The Bamboo Pit Viper is a venomous arboreal snake found in parts of India. It commonly has a bright green body, although yellowish, brownish and other colour variations occur. It has a triangular head, vertically elliptical pupils and heat-sensing pits between its eyes and nostrils. It spends much of its time resting on vegetation, bamboo and low branches. It is an ambush predator that mainly feeds on frogs, lizards and small rodents.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It is a venomous pit viper.",
+    "It is commonly found in vegetation and bamboo thickets.",
+    "It has heat-sensing pits between its eyes and nostrils.",
+    "It is an excellent climber.",
+    "It commonly displays green coloration.",
+    "It hunts frogs and lizards through ambush predation.",
+    "It gives birth to live young.",
+    "It is primarily active during the night.",
+    "Its colour helps it blend into green vegetation."
+  ]
+},
+{
+  id: "indian-smooth-snake",
+
+  // BASIC INFORMATION
+  name: "Indian Smooth Snake",
+  scientificName: "Coronella brachyura",
+  species: "C. brachyura",
+  genus: "Coronella",
+  family: "Colubridae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Colubrid Snakes",
+
+  // VENOM
+  venomous: false,
+  venomType: "None",
+  venomDetails:
+    "The Indian Smooth Snake is non-venomous and is not considered dangerous to humans. It may bite if handled or threatened.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "Approximately 40–60 cm",
+  maximumLength: "Approximately 75 cm",
+  averageWeight: "Not well documented",
+  lifespanWild: "Not well documented",
+
+  // BIOLOGY
+  diet: [
+    "Small lizards",
+    "Geckos",
+    "Skinks",
+    "Small rodents",
+    "Other small vertebrates"
+  ],
+  huntingMethod: "Active searching and constriction",
+  activity: "Mainly terrestrial; activity varies with local conditions",
+  reproduction: "Oviparous (lays eggs)",
+  clutchSize: "Not well documented",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Rocky areas",
+    "Scrubland",
+    "Dry deciduous forests",
+    "Grassland",
+    "Agricultural edges"
+  ],
+
+  distribution:
+    "India, particularly parts of the Deccan Plateau and peninsular region.",
+
+  // CONSERVATION
+  conservationStatus: "Not well assessed globally",
+  populationTrend: "Unknown",
+  majorThreats: [
+    "Habitat loss",
+    "Agricultural expansion",
+    "Road mortality",
+    "Human persecution"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/indian-smooth-snake.png",
+
+  // DESCRIPTION
+  description:
+    "The Indian Smooth Snake is a small, non-venomous colubrid snake found in parts of India. It has a slender body with smooth scales and a relatively short head. It is generally secretive and is often associated with rocky habitats, scrubland and dry landscapes. It feeds on small reptiles and other small animals.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It is a non-venomous snake.",
+    "Its scientific name is Coronella brachyura.",
+    "It is a relatively small snake.",
+    "It has smooth body scales.",
+    "It is generally secretive and difficult to observe.",
+    "It is associated with rocky and dry habitats.",
+    "It helps control populations of small reptiles and other prey.",
+    "It is not considered dangerous to humans."
+  ]
 }
 
 
