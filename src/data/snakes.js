@@ -480,7 +480,7 @@ export const snakes = [
   ],
   huntingMethod: "Ambush hunting",
   activity: "Primarily nocturnal; may be active during cooler daytime conditions",
-  reproduction: "Viviparous (gives birth to live young)",
+  reproduction: "Oviparous (Lay eggs to give birth)",
   clutchSize: "Approximately 3–15 young",
 
   // HABITAT AND DISTRIBUTION
@@ -1176,85 +1176,7 @@ export const snakes = [
     "Its colour helps it blend into green vegetation."
   ]
 },
-{
-  id: "indian-smooth-snake",
 
-  // BASIC INFORMATION
-  name: "Indian Smooth Snake",
-  scientificName: "Coronella brachyura",
-  species: "C. brachyura",
-  genus: "Coronella",
-  family: "Colubridae",
-  order: "Squamata",
-  class: "Reptilia",
-  category: "Colubrid Snakes",
-
-  // VENOM
-  venomous: false,
-  venomType: "None",
-  venomDetails:
-    "The Indian Smooth Snake is non-venomous and is not considered dangerous to humans. It may bite if handled or threatened.",
-
-  // PHYSICAL CHARACTERISTICS
-  averageLength: "Approximately 40–60 cm",
-  maximumLength: "Approximately 75 cm",
-  averageWeight: "Not well documented",
-  lifespanWild: "Not well documented",
-
-  // BIOLOGY
-  diet: [
-    "Small lizards",
-    "Geckos",
-    "Skinks",
-    "Small rodents",
-    "Other small vertebrates"
-  ],
-  huntingMethod: "Active searching and constriction",
-  activity: "Mainly terrestrial; activity varies with local conditions",
-  reproduction: "Oviparous (lays eggs)",
-  clutchSize: "Not well documented",
-
-  // HABITAT AND DISTRIBUTION
-  habitat: [
-    "Rocky areas",
-    "Scrubland",
-    "Dry deciduous forests",
-    "Grassland",
-    "Agricultural edges"
-  ],
-
-  distribution:
-    "India, particularly parts of the Deccan Plateau and peninsular region.",
-
-  // CONSERVATION
-  conservationStatus: "Not well assessed globally",
-  populationTrend: "Unknown",
-  majorThreats: [
-    "Habitat loss",
-    "Agricultural expansion",
-    "Road mortality",
-    "Human persecution"
-  ],
-
-  // IMAGE
-  image: "/images/snakes/indian-smooth-snake.png",
-
-  // DESCRIPTION
-  description:
-    "The Indian Smooth Snake is a small, non-venomous colubrid snake found in parts of India. It has a slender body with smooth scales and a relatively short head. It is generally secretive and is often associated with rocky habitats, scrubland and dry landscapes. It feeds on small reptiles and other small animals.",
-
-  // INTERESTING FACTS
-  facts: [
-    "It is a non-venomous snake.",
-    "Its scientific name is Coronella brachyura.",
-    "It is a relatively small snake.",
-    "It has smooth body scales.",
-    "It is generally secretive and difficult to observe.",
-    "It is associated with rocky and dry habitats.",
-    "It helps control populations of small reptiles and other prey.",
-    "It is not considered dangerous to humans."
-  ]
-}
 
 
 
