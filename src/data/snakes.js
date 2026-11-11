@@ -480,7 +480,7 @@ export const snakes = [
   ],
   huntingMethod: "Ambush hunting",
   activity: "Primarily nocturnal; may be active during cooler daytime conditions",
-  reproduction: "Oviparous (Lay eggs to give birth)",
+  reproduction: "Ovoviparous (gives birth to live young in Central Asia , South Asia and Middle East)",
   clutchSize: "Approximately 3–15 young",
 
   // HABITAT AND DISTRIBUTION
@@ -1176,7 +1176,162 @@ export const snakes = [
     "Its colour helps it blend into green vegetation."
   ]
 },
+{
+  id: "indian-coral-snake",
 
+  // BASIC INFORMATION
+  name: "Indian Coral Snake",
+  scientificName: "Calliophis melanurus",
+  species: "C. melanurus",
+  genus: "Calliophis",
+  family: "Elapidae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Coral Snakes",
+
+  // VENOM
+  venomous: true,
+  venomType: "Neurotoxic venom",
+  venomDetails:
+    "It is a venomous elapid with small fixed front fangs. Bites are rare, and detailed clinical information is limited. Any suspected bite requires immediate medical attention.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "Approximately 25–30 cm",
+  maximumLength: "Approximately 35–40 cm",
+  averageWeight: "Not well documented",
+  lifespanWild: "Not well documented",
+
+  // BIOLOGY
+  diet: [
+    "Small snakes",
+    "Worm snakes",
+    "Burrowing reptiles",
+    "Other small animals"
+  ],
+  huntingMethod: "Active searching among soil and leaf litter",
+  activity: "Mainly nocturnal and fossorial",
+  reproduction: "Oviparous (lays eggs)",
+  clutchSize: "Approximately 2–6 eggs",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Forest floors",
+    "Leaf litter",
+    "Loose soil",
+    "Under fallen logs",
+    "Lowland and hill forests"
+  ],
+  distribution:
+    "India, Bangladesh and Sri Lanka; recorded in several parts of peninsular India, including Andhra Pradesh, Karnataka, Kerala and Tamil Nadu.",
+
+  // CONSERVATION
+  conservationStatus: "Least Concern (GBIF listing)",
+  populationTrend: "Unknown",
+  majorThreats: [
+    "Habitat destruction",
+    "Deforestation",
+    "Soil disturbance",
+    "Road mortality"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/indian-coral-snake.png",
+
+  // DESCRIPTION
+  description:
+    "The Indian Coral Snake, also known as the Slender Coral Snake, is a small, secretive venomous snake. It has a very slender body, a dark head with pale markings and a distinctive dark tail that may show bright coloration underneath. It spends much of its time beneath leaf litter, fallen logs and loose soil. It is rarely encountered because of its secretive, burrowing lifestyle.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It is one of India's smallest venomous snakes.",
+    "It belongs to the cobra family, Elapidae.",
+    "It has small fixed front fangs.",
+    "It spends much of its time underground.",
+    "It feeds on small snakes and other burrowing reptiles.",
+    "It lays eggs rather than giving birth to live young.",
+    "It may curl and display its brightly coloured tail when disturbed.",
+    "It is rarely seen because of its secretive lifestyle."
+  ]
+},
+{
+  id: "indian-red-sand-boa",
+
+  // BASIC INFORMATION
+  name: "Indian Red Sand Boa",
+  scientificName: "Eryx johnii",
+  species: "E. johnii",
+  genus: "Eryx",
+  family: "Boidae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Boas",
+
+  // VENOM
+  venomous: false,
+  venomType: "None",
+  venomDetails:
+    "A non-venomous constrictor. It is generally harmless to humans and may bite if handled.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "Approximately 45–60 cm",
+  maximumLength: "Approximately 90 cm",
+  averageWeight: "Not well documented",
+  lifespanWild: "Not well documented",
+
+  // BIOLOGY
+  diet: [
+    "Rats",
+    "Mice",
+    "Small rodents",
+    "Lizards",
+    "Other small vertebrates"
+  ],
+  huntingMethod: "Constriction and ambush",
+  activity: "Primarily nocturnal and fossorial",
+  reproduction: "Ovoviviparous (gives birth to live young)",
+  clutchSize: "Approximately 6–14 young",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Dry scrubland",
+    "Sandy plains",
+    "Rocky areas",
+    "Dry grasslands",
+    "Loose soil",
+    "Underground burrows"
+  ],
+  distribution:
+    "India, Pakistan, Afghanistan and Iran.",
+
+  // CONSERVATION
+  conservationStatus: "Near Threatened (NT)",
+  populationTrend: "Unknown",
+  majorThreats: [
+    "Illegal wildlife trade",
+    "Habitat destruction",
+    "Road mortality",
+    "Human persecution"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/indian-red-sand-boa.png",
+
+  // DESCRIPTION
+  description:
+    "The Indian Red Sand Boa is a non-venomous, stout-bodied snake with smooth, glossy scales and a short, blunt tail that resembles its head. It spends much of its time underground in loose soil and burrows. It catches small animals and kills its prey by constriction.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It is completely non-venomous.",
+    "Its tail resembles a second head.",
+    "It is an excellent burrower.",
+    "It catches prey using constriction.",
+    "It gives birth to live young.",
+    "It is also called John's Sand Boa.",
+    "It is threatened by illegal wildlife trade.",
+    "It is protected under Indian wildlife law."
+  ]
+}
 
 
 
