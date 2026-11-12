@@ -1331,6 +1331,159 @@ export const snakes = [
     "It is threatened by illegal wildlife trade.",
     "It is protected under Indian wildlife law."
   ]
+},
+{
+  id: "sind-krait",
+
+  // BASIC INFORMATION
+  name: "Sind Krait",
+  scientificName: "Bungarus sindanus",
+  species: "B. sindanus",
+  genus: "Bungarus",
+  family: "Elapidae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Kraits",
+
+  // VENOM
+  venomous: true,
+  venomType: "Neurotoxic",
+  venomDetails:
+    "Its potent venom affects the nervous system and can cause paralysis and respiratory failure. A bite is a medical emergency.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "Approximately 100–130 cm",
+  maximumLength: "Approximately 150 cm",
+  averageWeight: "Not well documented",
+  lifespanWild: "Not well documented",
+
+  // BIOLOGY
+  diet: [
+    "Other snakes",
+    "Lizards",
+    "Small vertebrates"
+  ],
+  huntingMethod: "Nocturnal hunting",
+  activity: "Primarily nocturnal",
+  reproduction: "Oviparous (lays eggs)",
+  clutchSize: "Not well documented",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Dry plains",
+    "Semi-arid regions",
+    "Scrubland",
+    "Agricultural landscapes",
+    "Areas near human settlements"
+  ],
+  distribution:
+    "Northwestern India, including Rajasthan, Gujarat, Punjab and parts of Maharashtra; also found in Pakistan.",
+
+  // CONSERVATION
+  conservationStatus: "Least Concern (LC)",
+  populationTrend: "Unknown",
+  majorThreats: [
+    "Habitat alteration",
+    "Road mortality",
+    "Human persecution"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/sind-krait.png",
+
+  // DESCRIPTION
+  description:
+    "The Sind Krait is a highly venomous member of the cobra family. It has a glossy dark body with pale crossbands, a relatively small head and a slender neck. It is mainly active at night and may be encountered in dry landscapes and agricultural areas. Like other kraits, it has potent neurotoxic venom.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It belongs to the family Elapidae.",
+    "It is highly venomous.",
+    "It is mainly active at night.",
+    "It has a glossy dark body with pale bands.",
+    "It may feed on other snakes.",
+    "It lays eggs.",
+    "Its venom can cause severe paralysis.",
+    "It is closely related to other South Asian kraits."
+  ]
+},
+{
+  id: "banded-racer",
+
+  // BASIC INFORMATION
+  name: "Banded Racer",
+  scientificName: "Argyrogena fasciolata",
+  species: "A. fasciolata",
+  genus: "Argyrogena",
+  family: "Colubridae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Racers",
+
+  // VENOM
+  venomous: false,
+  venomType: "None",
+  venomDetails:
+    "A non-venomous snake. It may bite defensively if captured or threatened.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "Approximately 75–100 cm",
+  maximumLength: "Up to approximately 180 cm",
+  averageWeight: "Not well documented",
+  lifespanWild: "Not well documented",
+
+  // BIOLOGY
+  diet: [
+    "Rodents",
+    "Frogs",
+    "Lizards",
+    "Small birds"
+  ],
+  huntingMethod: "Active searching and occasional constriction",
+  activity: "Primarily diurnal",
+  reproduction: "Oviparous (lays eggs)",
+  clutchSize: "Usually around 5–12 eggs; larger clutches have been recorded",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Dry deciduous forests",
+    "Grasslands",
+    "Scrubland",
+    "Agricultural fields",
+    "Rocky areas",
+    "Areas near human settlements"
+  ],
+  distribution:
+    "India, Nepal, Pakistan, Bangladesh and northern Sri Lanka.",
+
+  // CONSERVATION
+  conservationStatus: "Least Concern (LC)",
+  populationTrend: "Unknown",
+  majorThreats: [
+    "Habitat loss",
+    "Road mortality",
+    "Human persecution",
+    "Agricultural activities"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/banded-racer.png",
+
+  // DESCRIPTION
+  description:
+    "The Banded Racer is a fast-moving, non-venomous snake found across parts of South Asia. Adults are often brown or olive-brown, while younger snakes may display more noticeable pale crossbands. It is mainly a ground-dwelling snake that hunts rodents, frogs and lizards. When threatened, it may raise the front part of its body and flatten its neck, sometimes resembling a cobra.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It is completely non-venomous.",
+    "It is known for its quick movements.",
+    "Young snakes often have more prominent bands.",
+    "Adults may lose much of their banded appearance.",
+    "It feeds on rodents and other small animals.",
+    "It may flatten its neck when threatened.",
+    "It is sometimes mistaken for a cobra.",
+    "It lays eggs rather than giving birth to live young."
+  ]
 }
 
 
