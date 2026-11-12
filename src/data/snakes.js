@@ -1484,6 +1484,163 @@ export const snakes = [
     "It is sometimes mistaken for a cobra.",
     "It lays eggs rather than giving birth to live young."
   ]
+},
+{
+  id: "andaman-cobra",
+
+  // BASIC INFORMATION
+  name: "Andaman Cobra",
+  scientificName: "Naja sagittifera",
+  species: "N. sagittifera",
+  genus: "Naja",
+  family: "Elapidae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Cobras",
+
+  // VENOM
+  venomous: true,
+  venomType: "Neurotoxic",
+  venomDetails:
+    "Like other cobras, its venom can affect the nervous system and may cause paralysis and respiratory failure. A bite requires immediate emergency medical attention.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "Not well documented",
+  maximumLength: "Not well documented",
+  averageWeight: "Not well documented",
+  lifespanWild: "Not well documented",
+
+  // BIOLOGY
+  diet: [
+    "Small mammals",
+    "Lizards",
+    "Frogs",
+    "Other snakes"
+  ],
+  huntingMethod: "Active searching and ambush",
+  activity: "Primarily terrestrial; activity may vary",
+  reproduction: "Oviparous (lays eggs)",
+  clutchSize: "Not well documented",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Tropical forests",
+    "Forest edges",
+    "Lowland forest",
+    "Vegetated areas"
+  ],
+  distribution:
+    "Endemic to India's Andaman Islands.",
+
+  // CONSERVATION
+  conservationStatus: "Endangered (EN)",
+  populationTrend: "Decreasing",
+  majorThreats: [
+    "Habitat loss",
+    "Urban development",
+    "Agricultural expansion",
+    "Hunting and trapping"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/andaman-cobra.png",
+
+  // DESCRIPTION
+  description:
+    "The Andaman Cobra is a venomous cobra native to the Andaman Islands of India. It belongs to the family Elapidae and has a hood that it can spread when threatened. Adults show different colour patterns, including dark, greyish and brownish forms. It is a forest-dwelling species with a restricted island distribution.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It is endemic to the Andaman Islands.",
+    "It belongs to the cobra genus Naja.",
+    "It is a venomous snake.",
+    "It can spread its hood when threatened.",
+    "Adults show several colour variations.",
+    "It lays eggs.",
+    "Its known distribution is geographically restricted.",
+    "It is classified as Endangered on the IUCN Red List."
+  ]
+},
+{
+  id: "brahminy-blind-snake",
+
+  // BASIC INFORMATION
+  name: "Brahminy Blind Snake",
+  scientificName: "Indotyphlops braminus",
+  species: "I. braminus",
+  genus: "Indotyphlops",
+  family: "Typhlopidae",
+  order: "Squamata",
+  class: "Reptilia",
+  category: "Blind Snakes",
+
+  // VENOM
+  venomous: false,
+  venomType: "None",
+  venomDetails:
+    "Completely non-venomous and harmless to humans. Its tiny mouth is not adapted to bite people.",
+
+  // PHYSICAL CHARACTERISTICS
+  averageLength: "Approximately 12–15 cm",
+  maximumLength: "Approximately 23 cm",
+  averageWeight: "Not well documented",
+  lifespanWild: "Not well documented",
+
+  // BIOLOGY
+  diet: [
+    "Ant eggs",
+    "Ant larvae",
+    "Ant pupae",
+    "Termite eggs",
+    "Termite larvae"
+  ],
+  huntingMethod: "Searching through soil and underground insect nests",
+  activity: "Primarily fossorial and nocturnal",
+  reproduction: "Parthenogenetic (females reproduce without males)",
+  clutchSize: "Approximately 2–8 eggs",
+
+  // HABITAT AND DISTRIBUTION
+  habitat: [
+    "Loose soil",
+    "Gardens",
+    "Agricultural fields",
+    "Under stones",
+    "Under fallen logs",
+    "Leaf litter",
+    "Flowerpots"
+  ],
+  distribution:
+    "Native to South Asia, including India and Sri Lanka; introduced to tropical and subtropical regions worldwide.",
+
+  // CONSERVATION
+  conservationStatus: "Least Concern (LC)",
+  populationTrend: "Unknown",
+  majorThreats: [
+    "Local habitat disturbance",
+    "Pesticide use",
+    "Soil contamination"
+  ],
+
+  // IMAGE
+  image: "/images/snakes/brahminy-blind-snake.png",
+
+  // DESCRIPTION
+  description:
+    "The Brahminy Blind Snake is a very small, worm-like, non-venomous snake. It has a shiny black, dark brown or purplish body, tiny eyes covered by scales and a rounded head that is difficult to distinguish from its body. It spends most of its life underground, feeding on ants and termites. It is commonly found in gardens, loose soil and flowerpots.",
+
+  // INTERESTING FACTS
+  facts: [
+    "It is one of the world's smallest snakes.",
+    "It is completely non-venomous.",
+    "It is often mistaken for an earthworm.",
+    "Its eyes are tiny and covered by scales.",
+    "It feeds mainly on ants and termites.",
+    "All known individuals are female.",
+    "It reproduces through parthenogenesis.",
+    "It can reproduce without mating.",
+    "It is sometimes called the Flowerpot Snake.",
+    "It lays eggs that develop without fertilisation."
+  ]
 }
 
 
